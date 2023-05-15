@@ -1,2 +1,2 @@
 # little-angel
-Little Angel chorus pedal based of Rick Holt schematic.
+Little Angel chorus pedal based on Rick Holt schematic.
