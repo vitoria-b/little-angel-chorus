@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Little Angel Chorus ")
+    (date "2023-05-23")
+    (company "Author: Vitória Beatriz Bianchin")
+    (comment 1 "Email: vitoriabbianchin@gmail.com")
+    (comment 2 "Original schematic by Rick Holt ")
+  )
+
   (lib_symbols
     (symbol "Audio:PT2399" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 17.78 0)
@@ -2327,16 +2335,16 @@
     (pin "2" (uuid d619631e-5630-4f0c-be72-2e8e0c484a29))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 72.898 69.596 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 72.898 69.596 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b54e917c-23b2-4955-832d-717d186c0a40)
-    (property "Reference" "C4" (id 0) (at 75.946 67.4369 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "C4" (id 0) (at 76.2 69.2149 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "47uF" (id 1) (at 75.946 69.9769 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "47uF" (id 1) (at 76.2 71.7549 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 73.8632 73.406 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 71.9328 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.898 69.596 0)
@@ -2476,7 +2484,7 @@
     (in_bom yes) (on_board yes)
     (uuid d71891e5-c312-4665-a42b-045b28fe68e5)
     (property "Reference" "R19" (id 0) (at 173.99 60.6736 0))
-    (property "Value" "10k" (id 1) (at 173.99 58.6416 0))
+    (property "Value" "100k" (id 1) (at 173.99 58.6416 0))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 179.07 59.6576 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2921,7 +2929,7 @@
       (reference "R18") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d71891e5-c312-4665-a42b-045b28fe68e5"
-      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R19") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/6a98e60f-af7b-4c1a-9441-3d8b95a7c539"
       (reference "R20") (unit 1) (value "1M") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
